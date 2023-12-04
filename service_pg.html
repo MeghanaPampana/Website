@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>atMarriage</title>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+            h1, h3 {
+                font-family: 'Playfair Display', serif;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Montserrat';
+                background-color: white;        
+            }
+
+            header {
+                background-color: white;
+                color: black;
+                padding: 10px;
+                text-align: right;          
+                display: flex; 
+                justify-content: center;
+                align-items: center; 
+            }
+
+            header h1 {
+                margin: 0;
+            }
+
+            header img {
+                max-width: 90px; 
+                height: auto; 
+                margin-left: 15px; 
+            }
+
+            nav {
+                background: linear-gradient(to right, #5ab9ea, #ff9ab4);
+                padding: 10px;
+                text-align: center;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            .about-us-container{
+                display: flex;
+                height: 100%;
+                background-color: #F6DBDB;
+                justify-content: space-between;
+                text-align: center;
+            }
+
+            .img{
+                width: 40%;
+            }
+
+            .img img{
+                width: 98%;
+                height: 74%;
+                border-radius: 15px;                
+            }
+
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>anytime <br>Marriage</h1>
+            <img src="logo.png" alt="Header Image">
+        </header>
+        <nav>
+            <a href="home_pg.html">Home</a>
+            <a href="service_pg.html">Services</a>
+            <a href="contact_pg.html">Contact Us</a>
+        </nav>
+
+        <div class="about-us-container">
+            <div class="img">
+                <a href="soon.html" ><h3>Explore Venues</h3><img src="venueBg.png" alt="venue"></a> <br>                
+            </div>
+            <div class="img">
+                <a href="soon.html"><h3>Make Invites</h3><img src="inv.png" alt="invitations"></a> <br>
+            </div>
+            <div class="img">
+                <a href="https://restaurant-table-reservation-six.vercel.app/"><h3>Book Restaurant</h3><img src="food.jpeg" alt="restaurant"></a> <br>
+            </div>
+            
+        </div>  
+
+        <footer>
+            <p>
+                <u><a href="home_pg.html" style="color: white;">anytimeMarriage</a></u>
+                <br><br>info@atm.com
+            </p>
+        </footer>
+    </body>
+</html>
